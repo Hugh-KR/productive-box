@@ -12,5 +12,5 @@ jobs:
         uses: Hugh-KR/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_ID: 70e8bd3f530ad5a323ddf806c6a1a9c4
           TIMEZONE: Asia/Seoul
