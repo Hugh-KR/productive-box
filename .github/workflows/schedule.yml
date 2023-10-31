@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: Hugh-KR/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: d61ab1a62e0cc6411eb79783191da3f8
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Taipei
